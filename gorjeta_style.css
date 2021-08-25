@@ -1,0 +1,132 @@
+body {
+    font-family: Roboto;
+    background: #faf2c3;
+}
+
+#container {
+    height: 500px;
+    width: 350px;
+    margin: 75px auto;
+    background: #ffffff;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+}
+
+h1 {
+    background: #f1bf61;
+    color: white;
+    margin: 0;
+    padding: 10px 100px;
+    font-size: 32px;
+    font-weight: normal;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    text-align: center;
+}
+
+p {
+    padding-left: 20px;
+}
+
+form input[type="text"] {
+    width: 90px;
+}
+
+input {
+    padding-left: 20px;
+}
+
+#billamt {
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    width: 60%;
+    padding: 5px 5px 8px 8px;
+}
+
+#billamt:focus {
+    background: rgb(255, 255, 255);
+    border: 3px solid #000000a9;
+    outline: none;
+}
+
+#peopleamt {
+    text-align: center;
+    width: 60%;
+    padding: 5px 5px 8px 8px;
+    margin-left: 20px;
+    color:rgb(0, 0, 0);
+    background-color: #ffffff;
+    font-size: 14px;
+}
+
+.realSign {
+    display: inline;
+}
+
+#serviceQual {
+    padding: 7px 7px 20px 20px;
+    margin-left: 15px;
+    font-size: 15px;
+}
+
+button {
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    margin: 30px auto;
+    background: #f1bf61;
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    font-size: 17px;
+    color: white;
+}
+
+button:hover {
+    background: #f1bf61;
+    border-bottom-color: rgb(255, 255, 255);
+}
+
+button:active {
+    position: relative;
+    top: 1px;
+}
+
+#totalTip {
+    font-size: 20px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+#totalTip:before {
+    content: "Total:";
+    font-size: 20px;
+    margin-top: -27px;
+    font-weight: bold;
+    display: block;
+    text-transform: uppercase;
+}
+
+#totalTip sup {
+    font-size: 20px;
+    margin-top: -40px;
+    position: absolute;
+    margin-left: -30px;
+    margin-top:0px;
+}
+
+#totalTip small {
+    font-size: 20px;
+    position: absolute;
+    margin-left: 160px;
+    margin-top: 0px;
+    font-weight: bold;
+    display: block;
+}
+
+#each{
+    padding-left: 600;
+}

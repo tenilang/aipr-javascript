@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="gorjeta_style.css">
+    <title>Calculadora de Gorjeta</title>
+</head>
+<body>
+</body>
+</html>
+<div id="container">
+<h1>Gorjeta</h1>
+<div id="calculator">
+    <form>
+    <p>Valor da Conta:
+        <p> R$ <input id="billamt" type="text" placeholder="Quantia da conta">
+        <p>Quantos % você deseja pagar?
+            <p>
+            <select id="serviceQual">
+            <option disabled selected value="0">   Escolha uma opção   </option>
+            <option value="0.3">30&#37; &#45; Perfeito</option>
+            <option value="0.2">20&#37; &#45; Bom</option>
+            <option value="0.15">15&#37; &#45; OK</option>
+            <option value="0.1">10&#37; &#45; Ruim</option>
+            <option value="0.05">5&#37; &#45; Horrível</option>
+        </select>
+    </form>
+    <p>Quantas pessoas irão pagar?</p>
+    <input id="peopleamt" type="text" placeholder="Número de Pessoas">
+    <button type="button" id="calculate">Calcular!</button>
+</div>
+<div id="totalTip">
+    <sup text-align: center>R$ </sup><span id="tip"> 0.00</span>
+    <small id="each">cada</small>
+</div>
+</div>
+<script type="text/javascript" src="gorjeta_script.js"></script>
