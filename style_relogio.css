@@ -1,0 +1,30 @@
+h1{
+    font-family: Arial;
+    font-size: 3rem;
+    color:azure;
+    -webkit-text-fill-color: rgb(31, 31, 31);
+}
+
+div{
+    font-family: Arial;
+    font-size: 3rem;
+    color:azure;
+    -webkit-text-fill-color: rgb(31, 31, 31);
+}
+
+a{
+    color:azure
+}
+
+p{
+    font-family: Arial;
+    font-size: 2.5rem;
+    -webkit-text-fill-color: rgb(31, 31, 31);
+}
+
+.hero{
+    background-image: url(https://img.freepik.com/vetores-gratis/fundo-branco-textura-elegante_23-2148445782.jpg?size=626&ext=jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
